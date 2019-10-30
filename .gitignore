@@ -1,0 +1,14 @@
+gws
+go
+node
+keycertz
+go_systems/pkg
+go_systems/src/chilkat
+go_systems/src/github.com
+go_systems/src/go.mongodb.org
+go_systems/src/golang.org
+parcel_blueprint/.cache
+parcel_blueprint/dist
+parcel_blueprint/node_modules
+parcel_blueprint/package-lock.json
+VFS

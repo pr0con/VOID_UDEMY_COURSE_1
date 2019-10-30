@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Hackman';
+  src: url('../fonts/Hackman/Hackman.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Hackman/Hackman.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Hackman-Bold';
+  src: url('../fonts/Hackman/Hackman-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Hackman/Hackman-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	
+
+	outline:0 none !important;
+} 
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; /* 10px / 16px -> 62.5% -> 1rem -> 10px */
+} 
+
+html,
+body,
+#react_root {
+	position: relative;
+	z-index: 0;
+	
+	font-family: 'Hackman' !important; 
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	
+	width: 100vw;
+	height: 100vh;
+	
+	top: 0px;
+	left: 0px;
+} 
+
+.xterm-helpers {
+	height: 0px;
+	overflow:hidden;
+}
+
